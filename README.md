@@ -48,9 +48,9 @@ R<sub>SS</sub> = 0.8KΩ
 
 ![image](https://github.com/user-attachments/assets/bd3603d0-497a-48cd-ad19-b8d21a9cf21c)
 
-Here in dc analysis we got the Vout as expected and Id1 and Id2 we got the same.
+Here in dc analysis we got the Vout as expected and Id1 and Id2 we got the same for the Width value 19.3um and Length value 180nm.
 
-# Transient analysis:
+## Transient analysis:
 **Procedure**: To perform transient analysis we have to select the transient analysis in the edit simulation and give the stop time as 5ms and run the simulation.
 
 ![image](https://github.com/user-attachments/assets/62374293-9027-430f-a04b-873ba4105f77)
@@ -59,7 +59,7 @@ Voltage gain,AV = Voutp-p/Vinp-p<br>
 AV=(1.18-1.001)/(1.05-0.95)<br>
 AV=1.8<br>
 
-# AC Analysis
+## AC Analysis
 
 ![image](https://github.com/user-attachments/assets/0159c8b4-148e-4732-80aa-c24c11c39a42)
 
@@ -67,8 +67,44 @@ Gain in db= 20log(AV)<br>
          =20log(1.8)<br>
          =5.105<br>
 
-## Circuit 2 
+# Circuit 2 
 Now replace the resistor Rss with a current source Iss = 0.5mA.
+
+![image](https://github.com/user-attachments/assets/48658e6f-0196-46a8-b6ac-e9ef650329d8)
+
+
+## DC Analysis
+To perform the DC analysis we have to select the {DC op pnt} in the edit simulation command and run the simulation the figure below is the values obtained from the DC analysis
+
+![image](https://github.com/user-attachments/assets/ed082fbb-411a-40b9-8a4b-c9f9b51f128a)
+
+Width = 19.3um ; Length = 180nm
+We obtained the required Iss value of 0.5mA for the above mentioned W/L values.
+
+## Transient Analysis
+**Procedure**: Set 180degree and AC amplitude 0 for one mosfet and 0degree and AC amplitude 1 for another circuit.
+
+![image](https://github.com/user-attachments/assets/bfb3c9d4-7aa7-4294-a5c7-3d15badafe33)
+
+Voltage gain,AV = Voutp-p/Vinp-p<br>
+AV=(1.53-0.64)/(1.04-0.95)<br>
+AV=9.8<br>
+
+## AC Analysis
+
+![image](https://github.com/user-attachments/assets/f684391a-a3dc-4bc3-ac6c-4e0316a28e58)
+
+Gain in db= 20log(AV)<br>
+         =20log(9.8)<br>
+         =19.82<br>
+
+
+
+
+
+
+
+
 
 
 
