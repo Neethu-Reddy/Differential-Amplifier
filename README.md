@@ -55,17 +55,20 @@ Here in dc analysis we got the Vout as expected and Id1 and Id2 we got the same.
 
 ![image](https://github.com/user-attachments/assets/62374293-9027-430f-a04b-873ba4105f77)
 
-Voltage gain,AV = Voutp-p/Vinp-p
-AV=(1.18-1.001)/(1.05-0.95)
-AV=1.8
+Voltage gain,AV = Voutp-p/Vinp-p<br>
+AV=(1.18-1.001)/(1.05-0.95)<br>
+AV=1.8<br>
 
 # AC Analysis
 
 ![image](https://github.com/user-attachments/assets/0159c8b4-148e-4732-80aa-c24c11c39a42)
 
-Gain in db= 20log(AV)
-         =20log(1.8)
-         =5.105
+Gain in db= 20log(AV)<br>
+         =20log(1.8)<br>
+         =5.105<br>
+
+## Circuit 2 
+Now replace the resistor Rss with a current source Iss = 0.5mA.
 
 
 
