@@ -40,4 +40,23 @@ R<sub>D</sub> = 3.6KΩ
 
 R<sub>SS</sub> = 0.8KΩ
 
+# Circuit 1
+## DC Analysis
+**Procedure**: Design Rd and Rss.Observe Vocm, Vp. Justify the results.
+
+![image](https://github.com/user-attachments/assets/4603418b-2566-4f86-9473-f3cc7dc191ad)
+
+![image](https://github.com/user-attachments/assets/bd3603d0-497a-48cd-ad19-b8d21a9cf21c)
+
+# Transient analysis:
+**Procedure**: To perform transient analysis we have to select the transient analysis in the edit simulation and give the stop time as 5ms and run the simulation.
+
+![image](https://github.com/user-attachments/assets/dcef38aa-a18d-45ae-8fd4-44fb1c41e5a2)
+
+
+
+
+
+
+
 
