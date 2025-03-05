@@ -110,6 +110,35 @@ From the above experiment we observed the three different configurations for the
 2. With Current source: We observed high CMRR and low bandwidth compared to that of with the resistor and has high gain voltage.
 3. With Mosfet: The highest gain we observed was in this compared to the other two configurations. However, the frequency response for this configuration seems very unstable, with constant fluctuations before the midband.
 
+## Summary
+
+<table>
+<tr>
+  <td></td>
+  <td>CMRR</td>
+  <td>BandWidth</td>
+  <td>Gain Voltage</td>
+</tr>
+<tr>
+  <td>With Resistor</td>
+  <td>Low</td>
+  <td>High</td>
+  <td>Reduced</td>
+</tr>
+<tr>
+  <td>With Current Source</td>
+  <td>High</td>
+  <td>Low</td>
+  <td>High</td>
+</tr>
+<tr>
+  <td>With Mosfet</td>
+  <td></td>
+  <td></td>
+  <td></td>
+</tr>
+</table>
+
 
 
 
