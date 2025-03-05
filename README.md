@@ -48,10 +48,27 @@ R<sub>SS</sub> = 0.8KΩ
 
 ![image](https://github.com/user-attachments/assets/bd3603d0-497a-48cd-ad19-b8d21a9cf21c)
 
+Here in dc analysis we got the Vout as expected and Id1 and Id2 we got the same.
+
 # Transient analysis:
 **Procedure**: To perform transient analysis we have to select the transient analysis in the edit simulation and give the stop time as 5ms and run the simulation.
 
-![image](https://github.com/user-attachments/assets/dcef38aa-a18d-45ae-8fd4-44fb1c41e5a2)
+![image](https://github.com/user-attachments/assets/62374293-9027-430f-a04b-873ba4105f77)
+
+Voltage gain,AV = Voutp-p/Vinp-p
+AV=(1.18-1.001)/(1.05-0.95)
+AV=1.8
+
+# AC Analysis
+
+![image](https://github.com/user-attachments/assets/0159c8b4-148e-4732-80aa-c24c11c39a42)
+
+Gain in db= 20log(AV)
+         =20log(1.8)
+         =5.105
+
+
+
 
 
 
