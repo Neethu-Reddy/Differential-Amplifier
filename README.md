@@ -63,14 +63,14 @@ AV=1.8<br>
 
 ![image](https://github.com/user-attachments/assets/0159c8b4-148e-4732-80aa-c24c11c39a42)
 
-Gain in db= 20log(AV)<br>
+Gain in dB= 20log(AV)<br>
          =20log(1.8)<br>
-         =5.105<br>
+         =5.105dB<br>
 
 # Circuit 2 
 Now replace the resistor Rss with a current source Iss = 0.5mA.
 
-![image](https://github.com/user-attachments/assets/48658e6f-0196-46a8-b6ac-e9ef650329d8)
+![image](https://github.com/user-attachments/assets/92bbed5a-c9ab-4883-95d8-ae026084c12d)
 
 
 ## DC Analysis
@@ -94,9 +94,22 @@ AV=9.8<br>
 
 ![image](https://github.com/user-attachments/assets/f684391a-a3dc-4bc3-ac6c-4e0316a28e58)
 
-Gain in db= 20log(AV)<br>
+Gain in dB= 20log(AV)<br>
          =20log(9.8)<br>
-         =19.82<br>
+         =19.82dB<br>
+         
+# Circuit 3
+Now replace the R3 resister with a Mosfet.
+
+![image](https://github.com/user-attachments/assets/5e636b77-7392-4d27-a6fc-d51c4e7d9f6f)
+
+## Inference
+
+From the above experiment we observed the three different configurations for the differential amplifier, i.e., with resistance RSS, current source ISS, the NMOS biased as a current source operating in saturation region.
+1. With resistor:We observed low CMRR(Common-Mode Rejection Ratio) and high bandwidth and also it provides negative feedback.It also has reduced gain voltage.
+2. With Current source: We observed high CMRR and low bandwidth compared to that of with the resistor and has high gain voltage.
+3. With Mosfet: The highest gain we observed was in this compared to the other two configurations. However, the frequency response for this configuration seems very unstable, with constant fluctuations before the midband.
+
 
 
 
