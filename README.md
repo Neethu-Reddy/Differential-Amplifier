@@ -101,9 +101,13 @@ Gain in dB= 20log(AV)<br>
 # Circuit 3
 Now replace the R3 resister with a Mosfet.
 
+![image](https://github.com/user-attachments/assets/1cffe8b1-8abb-459a-baa6-3f27d7801db0)
+
 ## DC Analysis
 
-![image](https://github.com/user-attachments/assets/1cffe8b1-8abb-459a-baa6-3f27d7801db0)
+![image](https://github.com/user-attachments/assets/a3a71e1b-5110-4a67-a13e-0ee7e7fa4534)
+
+
 
 For M1 and M2:<br>
 MOSFET length(L): 300nm<br>
