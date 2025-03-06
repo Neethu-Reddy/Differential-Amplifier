@@ -101,8 +101,57 @@ Gain in dB= 20log(AV)<br>
 # Circuit 3
 Now replace the R3 resister with a Mosfet.
 
-![image](https://github.com/user-attachments/assets/5e636b77-7392-4d27-a6fc-d51c4e7d9f6f)
+## DC Analysis
 
+![image](https://github.com/user-attachments/assets/1cffe8b1-8abb-459a-baa6-3f27d7801db0)
+
+For M1 and M2:<br>
+MOSFET length(L): 300nm<br>
+MOSFET width(W): 29.904um<br>
+
+For M3:<br>
+MOSFET length(L): 300nm<br>
+MOSFET width(W): 8.08385um<br>
+
+Calculated values of MOSFETS M1 and M2:<br>
+Vds=0.7V<br>
+Vgs=0.6V<br>
+Vgd=-0.1V<br>
+Vth=0.47V<br>
+Vov=0.6-0.47=0.13V<br>
+Hence here Vds>Vov.<br>
+
+Therefor we can conclude that Mosfet is in saturation.<br>
+
+M3:<br>
+Vds=0.4V<br>
+Vgs=0.87V<br>
+Vgd=0.47V<br>
+Vov=0.4V<br>
+
+Therefore Vds>Vov. FET(M3) is in saturation region.<br>
+Here in the analysis Vout=1.1V and Vp=0.4V is exactly matching with our theoritical value.<br>
+
+V4=Vp+Vth<br>
+=0.4+0.473<br>
+V4=0.873V<br>
+
+
+## Transient analysis
+
+![image](https://github.com/user-attachments/assets/bfba40fc-dd3b-4889-93c8-48a9b5af8139)
+
+Gain(Av)= Vout/Vin<br>
+=(1.575-0.623)/(1.050-0.9503)<br>
+= 9.5486<br>
+
+## AC Analysis
+
+![image](https://github.com/user-attachments/assets/abf37fd7-5247-476e-93a0-aed990bfb5bd)
+
+Gain in dB = 20*log ( 9.5486)<br>
+=19.95 dB<br>
+         
 ## Inference
 
 From the above experiment we observed the three different configurations for the differential amplifier, i.e., with resistance RSS, current source ISS, the NMOS biased as a current source operating in saturation region.
@@ -133,9 +182,9 @@ From the above experiment we observed the three different configurations for the
 </tr>
 <tr>
   <td>With Mosfet</td>
-  <td></td>
-  <td></td>
-  <td></td>
+  <td>High</td>
+  <td>Moderate to high</td>
+  <td>High</td>
 </tr>
 </table>
 
